@@ -1,0 +1,165 @@
+body{
+background-color:#EEEEEE;
+margin:0;
+font-family:Merriweather;
+weight:400;
+  }
+  h2,h3 {
+    font-family: Merriweather;
+  }
+  h1{
+    color:#D648DB;
+  text-align: left;
+  width:30%;
+  font-family:Merriweather;
+  }
+
+  /* header */
+
+.nav-link {
+  padding:10px;
+  color:#D648DB;
+}
+.campany-logo{
+  width:100px;
+  height:100px;
+
+}
+
+/* Aboutus */
+.site-hero {
+    background-size:cover;
+  min-height:700px;
+min-width:100%;
+height:auto;
+  /* background-repeat: no-repeat; */
+}
+.title {
+  padding-top: 25%;
+}
+
+/* features */
+#features {
+  margin:7% 15%;
+}
+.flex-cont{
+  display:flex;
+  flex-wrap: wrap;
+gap:12%;
+align-self: center;
+}
+.flex-item1{
+  flex-basis:25%;
+  text-align: center;
+}
+.flex-item2{
+  flex-basis:25%;
+    text-align: center;
+}
+.flex-item3 {
+  flex-basis:25%;
+    text-align: center;
+}
+.icon {
+  color:lightgreen;
+}
+.icon:hover {
+  color:#57837B;
+}
+
+/* grid */
+.grid {
+  margin: 10% 5%;
+}
+.image {
+  max-width:300px;
+  max-height:300px;
+}
+.cont {
+  margin:0 10%;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap:6%;
+
+}
+.grid1 {
+grid-column:1;
+}
+
+
+/* frame/video */
+#video {
+  max-width:550px;
+  width:100%;
+  height:auto;
+}
+#frame {
+  margin:50px;
+  display:flex;
+  justify-content: center;
+}
+/* pricing */
+#pricing {
+  margin:7% 5% 0 5%;
+  display:flex;
+  justify-content:center;
+  flex-direction:row;
+}
+.stay {
+  display:flex;
+  flex-direction: column;
+  width:calc(100%/3);
+  text-align: center;
+  align-content:center;
+  margin:40px;
+  border-radius:5px;
+  border: 1px solid #000;
+}
+.type{
+  background-color: lightgreen;
+  padding:8px;
+
+  font-weight:500;
+  text-transform:uppercase;
+}
+.type:hover {
+  background-color:#57837B;
+}
+.no-bullet {
+  list-style-type:none;
+  justify-content:center;
+  margin:15px 0;
+}
+.btn {
+  margin:0 10px;
+  width:50%;
+  align-self:center;
+}
+/* form */
+.frm {
+  display:flex;
+  flex-direction:row;
+}
+#contact-us {
+  margin:20px;
+  justify-content: center;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+#email {
+  width:100%;
+  margin:10px 0 15px 10px;
+}
+/* footer */
+
+#footer {
+  padding-top:2%;
+  text-align: center;
+  background-color:#57837B;
+}
+
+.icon-fotr {
+  margin:5px;
+}
